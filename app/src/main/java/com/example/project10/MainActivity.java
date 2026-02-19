@@ -9,6 +9,7 @@ import androidx.appcompat.app.AppCompatActivity;
 public class MainActivity extends AppCompatActivity {
     EditText et1;
     int num = 0;
+    int sign = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -17,6 +18,16 @@ public class MainActivity extends AppCompatActivity {
     }
     public void minus(View view) {
         num = Integer.parseInt(et1.getText().toString());
+        if (sign == 1){
+
+        }
+        else if(sign == 2){
+
+        }
+        else if (sign == 3){
+
+        }
+        sign = 1;
     }
     public void plus(View view) {
         num = Integer.parseInt(et1.getText().toString());

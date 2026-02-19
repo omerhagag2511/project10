@@ -80,12 +80,12 @@
         app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <EditText
-        android:id="@+id/editTextNumber"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/text1"
+        android:layout_width="240dp"
+        android:layout_height="63dp"
         android:ems="10"
+        android:hint="enter number"
         android:inputType="number"
-        android:text="enter number"
         android:textColor="#6B6464"
         app:layout_constraintBottom_toTopOf="@+id/times"
         app:layout_constraintEnd_toEndOf="parent"
